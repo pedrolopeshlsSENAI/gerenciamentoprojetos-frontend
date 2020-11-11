@@ -1,14 +1,6 @@
 <template>
-  <v-card max-width="1300" class="ac mt-8">
+  <div>
 
-    <v-row align="center">
-      <v-col align="center" class="text-center ml-a">
-        <v-btn color="success">
-          <v-icon>mdi-plus</v-icon>
-            Novo
-        </v-btn>
-      </v-col>
-    </v-row>
 
     <v-card-title>
       Nutrition
@@ -49,7 +41,7 @@
     
     
     </v-data-table>
-  </v-card>
+  </div>
 </template>
 
 <script>

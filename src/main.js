@@ -6,11 +6,11 @@ import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify';
 import Vuesax from 'vuesax'
-
+import vueTheMask from 'vue-the-mask';
 import './assets/scss/index.scss';
 import 'vuesax/dist/vuesax.css' //Vuesax styles
 
-
+Vue.use(vueTheMask)
 Vue.use(Vuesax, {
   // options here
 })
